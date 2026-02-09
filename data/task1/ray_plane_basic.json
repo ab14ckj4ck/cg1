@@ -1,0 +1,64 @@
+{
+	"width": 800,
+	"height": 600,
+
+	"scene":
+	{
+		"camera":
+		{
+			"w_s": 0.036,
+			"f": 0.020138391,
+			"eye": [2, 3, 5],
+			"lookat": [0, 0, 0],
+			"up": [0, 1, 0]
+		},
+		"lights":
+		[
+			{ "p": [1000, 800, -300], "color": [1.0, 1.0, 1.0] },
+            { "p": [1000, 1000, 300], "color": [0.3, 0.3, 0.3] }
+		],
+    "materials": [
+
+      {
+        "name": "blue",
+        "diffuse": [ 0.1, 0.5, 1.0 ],
+        "specular": [ 0.34, 0.34, 0.34 ],
+        "mirror": false
+      },
+      {
+        "name": "yellow",
+        "diffuse": [ 1.0, 0.8, 0.2 ],
+        "specular": [ 0.34, 0.34, 0.34 ],
+        "mirror": false
+      },
+
+      {
+        "name": "base",
+        "diffuse": [ 0.35, 0.35, 0.35 ],
+        "specular": [ 0.34, 0.34, 0.34 ],
+        "mirror": false
+      }
+    ],
+    "objects": [
+      {
+        "type": "plane",
+        "p": [ 0.0, 1.0, 0.0, 0.0 ],
+        "material": "blue"
+      },
+      {
+        "type": "plane",
+        "p": [ 0.0, 0.0, 1.0, 0.0 ],
+        "material": "base"
+      },
+      {
+        "type": "cone",
+        "p": [ 0.0, 2.0, 1.0 ],
+        "d": [ 0.0, -1.0, 0.0 ],
+        "r": 1.0,
+        "h": 2.0,
+        "material": "yellow"
+      }
+
+    ]
+	}
+}

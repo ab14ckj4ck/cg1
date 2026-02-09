@@ -1,0 +1,25 @@
+{
+	"width": 400,
+	"height": 300,
+	"ssaa_samples": 16,
+
+	"scene":
+	{
+		"camera":
+		{
+			"w_s": 0.036,
+			"f": 0.024,
+			"eye": [0.1, 0.1, 0.8],
+			"lookat": [-0.0, 0.0, 0],
+			"up": [0, 1, 0]
+		},
+
+		"objects":
+		[
+			{
+				"type": "obj",
+				"file": "bars.obj"
+			}
+		]
+	}
+}

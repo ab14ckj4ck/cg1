@@ -1,0 +1,98 @@
+{
+	"width": 800,
+	"height": 600,
+
+	"scene":
+	{
+		"camera":
+		{
+			"w_s": 0.036,
+			"f": 0.020138391,
+			"eye": [0, 0, 0],
+			"lookat": [1, 0, 0],
+			"up": [0, 1, 0]
+		},
+		"lights":
+		[
+
+			{ "p": [0, 0, 0], "color": [1.0, 1.0, 1.0] }
+
+		],
+		"materials": [
+			{
+				"name": "base",
+				"diffuse": [1, 1, 1],
+				"specular": [1, 1, 1],
+				"mirror": true
+			},
+			{
+				"name": "green",
+				"diffuse": [0.50, 1, 0.50],
+				"specular": [0.50, 1, 0.50],
+				"mirror": true
+			}
+			
+			,
+			{
+				"name": "red",
+				"diffuse": [1, 0.5, 0.50],
+				"specular": [1, 0.5, 0.50],
+				"mirror": true
+			}
+			,
+			{
+				"name": "blue",
+				"diffuse": [0.50, 0, 1.50],
+				"specular": [0.50, 0, 1.50],
+				"mirror": true
+			},
+			{
+				"name": "purple",
+				"diffuse": [1.00, 1.0, 1.00],
+				"specular": [1.00, 1.0, 1.00],
+				"mirror": false
+			}
+		],
+		"objects":
+		[
+			{
+				"type": "plane",
+				"p": [0.0, 1.0, 0.0, -1.0],
+				"material": "green"
+			},
+			{
+				"type": "plane",
+				"p": [0.0, -1.0, 0.0, -1.0],
+				"material": "green"
+			},
+			
+			{
+				"type": "plane",
+				"p": [-1.0, 0.0, 0.0, -5.0],
+				"material": "red"
+			},
+			{
+				"type": "plane",
+				"p": [1.0, 0.0, 0.0, -1.0],
+				"material": "red"
+			},
+			{
+				"type": "plane",
+				"p": [0.0, 0.0, 1.0, -1.0],
+				"material": "blue"
+			},
+			{
+				"type": "plane",
+				"p": [0.0, 0.0, -1.0, -1.0],
+				"material": "blue"
+			},
+			{
+				"type": "sphere",
+				"center": [3.5, 0, 0.0],
+				"radius": 0.3,
+				"material": "purple"
+			}
+
+		]
+	}
+}
