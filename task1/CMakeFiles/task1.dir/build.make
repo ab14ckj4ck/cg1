@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin
+CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker
 
 # Include any dependencies generated for this target.
 include task1/CMakeFiles/task1.dir/depend.make
@@ -72,114 +72,114 @@ include task1/CMakeFiles/task1.dir/flags.make
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o: task1/CMakeFiles/task1.dir/flags.make
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o: task1/CMakeFiles/task1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.i
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task_builder.cpp.s
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o: task1/CMakeFiles/task1.dir/flags.make
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o: task1/CMakeFiles/task1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.i
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/RayTracer.cpp.s
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o: task1/CMakeFiles/task1.dir/flags.make
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o: task1/CMakeFiles/task1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.i
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/BVH.cpp.s
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o: task1/CMakeFiles/task1.dir/flags.make
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o: task1/CMakeFiles/task1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.i
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Scene.cpp.s
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o: task1/CMakeFiles/task1.dir/flags.make
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o: task1/CMakeFiles/task1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.i
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/SceneBuilder.cpp.s
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o: task1/CMakeFiles/task1.dir/flags.make
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o: task1/CMakeFiles/task1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.i
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/Task.cpp.s
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o: task1/CMakeFiles/task1.dir/flags.make
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o: task1/CMakeFiles/task1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.i
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/main.cpp.s
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o: task1/CMakeFiles/task1.dir/flags.make
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o: task1/CMakeFiles/task1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o -MF CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o.d -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp > CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.i
 
 task1/CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp -o CMakeFiles/task1.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/task1/task1.cpp.s
 
 # Object files for target task1
 task1_OBJECTS = \
@@ -208,18 +208,18 @@ bin/task1: lib/libframework.a
 bin/task1: lib/liblibpng.a
 bin/task1: lib/libzlib.a
 bin/task1: task1/CMakeFiles/task1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/task1"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task1.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/task1"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 task1/CMakeFiles/task1.dir/build: bin/task1
 .PHONY : task1/CMakeFiles/task1.dir/build
 
 task1/CMakeFiles/task1.dir/clean:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 && $(CMAKE_COMMAND) -P CMakeFiles/task1.dir/cmake_clean.cmake
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 && $(CMAKE_COMMAND) -P CMakeFiles/task1.dir/cmake_clean.cmake
 .PHONY : task1/CMakeFiles/task1.dir/clean
 
 task1/CMakeFiles/task1.dir/depend:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/task1 /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1 /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/task1/CMakeFiles/task1.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/task1 /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1 /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1/CMakeFiles/task1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : task1/CMakeFiles/task1.dir/depend
 

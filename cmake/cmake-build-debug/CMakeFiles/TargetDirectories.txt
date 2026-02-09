@@ -1,0 +1,16 @@
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/CMakeFiles/framework.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/CMakeFiles/edit_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/CMakeFiles/rebuild_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/zlib/CMakeFiles/zlib.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/zlib/CMakeFiles/edit_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/zlib/CMakeFiles/rebuild_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/libpng/CMakeFiles/libpng.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/libpng/CMakeFiles/edit_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/libpng/CMakeFiles/rebuild_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/rapidjson/CMakeFiles/edit_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/framework/rapidjson/CMakeFiles/rebuild_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/task1/CMakeFiles/task1.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/task1/CMakeFiles/edit_cache.dir
+/home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/cmake-build-debug/task1/CMakeFiles/rebuild_cache.dir
