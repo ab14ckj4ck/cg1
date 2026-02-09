@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin
+CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker
 
 # Include any dependencies generated for this target.
 include framework/zlib/CMakeFiles/zlib.dir/depend.make
@@ -72,156 +72,156 @@ include framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/adler32.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/adler32.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/adler32.c
 framework/zlib/CMakeFiles/zlib.dir/adler32.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object framework/zlib/CMakeFiles/zlib.dir/adler32.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/adler32.c.o -MF CMakeFiles/zlib.dir/adler32.c.o.d -o CMakeFiles/zlib.dir/adler32.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/adler32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object framework/zlib/CMakeFiles/zlib.dir/adler32.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/adler32.c.o -MF CMakeFiles/zlib.dir/adler32.c.o.d -o CMakeFiles/zlib.dir/adler32.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/adler32.c
 
 framework/zlib/CMakeFiles/zlib.dir/adler32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/adler32.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/adler32.c > CMakeFiles/zlib.dir/adler32.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/adler32.c > CMakeFiles/zlib.dir/adler32.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/adler32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/adler32.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/adler32.c -o CMakeFiles/zlib.dir/adler32.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/adler32.c -o CMakeFiles/zlib.dir/adler32.c.s
 
 framework/zlib/CMakeFiles/zlib.dir/compress.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/compress.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/compress.c
 framework/zlib/CMakeFiles/zlib.dir/compress.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object framework/zlib/CMakeFiles/zlib.dir/compress.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/compress.c.o -MF CMakeFiles/zlib.dir/compress.c.o.d -o CMakeFiles/zlib.dir/compress.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/compress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object framework/zlib/CMakeFiles/zlib.dir/compress.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/compress.c.o -MF CMakeFiles/zlib.dir/compress.c.o.d -o CMakeFiles/zlib.dir/compress.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/compress.c
 
 framework/zlib/CMakeFiles/zlib.dir/compress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/compress.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/compress.c > CMakeFiles/zlib.dir/compress.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/compress.c > CMakeFiles/zlib.dir/compress.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/compress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/compress.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/compress.c -o CMakeFiles/zlib.dir/compress.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/compress.c -o CMakeFiles/zlib.dir/compress.c.s
 
 framework/zlib/CMakeFiles/zlib.dir/crc32.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/crc32.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/crc32.c
 framework/zlib/CMakeFiles/zlib.dir/crc32.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object framework/zlib/CMakeFiles/zlib.dir/crc32.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/crc32.c.o -MF CMakeFiles/zlib.dir/crc32.c.o.d -o CMakeFiles/zlib.dir/crc32.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object framework/zlib/CMakeFiles/zlib.dir/crc32.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/crc32.c.o -MF CMakeFiles/zlib.dir/crc32.c.o.d -o CMakeFiles/zlib.dir/crc32.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/crc32.c
 
 framework/zlib/CMakeFiles/zlib.dir/crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/crc32.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/crc32.c > CMakeFiles/zlib.dir/crc32.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/crc32.c > CMakeFiles/zlib.dir/crc32.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/crc32.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/crc32.c -o CMakeFiles/zlib.dir/crc32.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/crc32.c -o CMakeFiles/zlib.dir/crc32.c.s
 
 framework/zlib/CMakeFiles/zlib.dir/deflate.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/deflate.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/deflate.c
 framework/zlib/CMakeFiles/zlib.dir/deflate.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object framework/zlib/CMakeFiles/zlib.dir/deflate.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/deflate.c.o -MF CMakeFiles/zlib.dir/deflate.c.o.d -o CMakeFiles/zlib.dir/deflate.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/deflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object framework/zlib/CMakeFiles/zlib.dir/deflate.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/deflate.c.o -MF CMakeFiles/zlib.dir/deflate.c.o.d -o CMakeFiles/zlib.dir/deflate.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/deflate.c
 
 framework/zlib/CMakeFiles/zlib.dir/deflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/deflate.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/deflate.c > CMakeFiles/zlib.dir/deflate.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/deflate.c > CMakeFiles/zlib.dir/deflate.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/deflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/deflate.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/deflate.c -o CMakeFiles/zlib.dir/deflate.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/deflate.c -o CMakeFiles/zlib.dir/deflate.c.s
 
 framework/zlib/CMakeFiles/zlib.dir/infback.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/infback.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/infback.c
 framework/zlib/CMakeFiles/zlib.dir/infback.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object framework/zlib/CMakeFiles/zlib.dir/infback.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/infback.c.o -MF CMakeFiles/zlib.dir/infback.c.o.d -o CMakeFiles/zlib.dir/infback.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/infback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object framework/zlib/CMakeFiles/zlib.dir/infback.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/infback.c.o -MF CMakeFiles/zlib.dir/infback.c.o.d -o CMakeFiles/zlib.dir/infback.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/infback.c
 
 framework/zlib/CMakeFiles/zlib.dir/infback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/infback.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/infback.c > CMakeFiles/zlib.dir/infback.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/infback.c > CMakeFiles/zlib.dir/infback.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/infback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/infback.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/infback.c -o CMakeFiles/zlib.dir/infback.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/infback.c -o CMakeFiles/zlib.dir/infback.c.s
 
 framework/zlib/CMakeFiles/zlib.dir/inffast.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/inffast.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inffast.c
 framework/zlib/CMakeFiles/zlib.dir/inffast.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object framework/zlib/CMakeFiles/zlib.dir/inffast.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/inffast.c.o -MF CMakeFiles/zlib.dir/inffast.c.o.d -o CMakeFiles/zlib.dir/inffast.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inffast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object framework/zlib/CMakeFiles/zlib.dir/inffast.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/inffast.c.o -MF CMakeFiles/zlib.dir/inffast.c.o.d -o CMakeFiles/zlib.dir/inffast.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inffast.c
 
 framework/zlib/CMakeFiles/zlib.dir/inffast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/inffast.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inffast.c > CMakeFiles/zlib.dir/inffast.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inffast.c > CMakeFiles/zlib.dir/inffast.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/inffast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/inffast.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inffast.c -o CMakeFiles/zlib.dir/inffast.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inffast.c -o CMakeFiles/zlib.dir/inffast.c.s
 
 framework/zlib/CMakeFiles/zlib.dir/inflate.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/inflate.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inflate.c
 framework/zlib/CMakeFiles/zlib.dir/inflate.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object framework/zlib/CMakeFiles/zlib.dir/inflate.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/inflate.c.o -MF CMakeFiles/zlib.dir/inflate.c.o.d -o CMakeFiles/zlib.dir/inflate.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object framework/zlib/CMakeFiles/zlib.dir/inflate.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/inflate.c.o -MF CMakeFiles/zlib.dir/inflate.c.o.d -o CMakeFiles/zlib.dir/inflate.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inflate.c
 
 framework/zlib/CMakeFiles/zlib.dir/inflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/inflate.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inflate.c > CMakeFiles/zlib.dir/inflate.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inflate.c > CMakeFiles/zlib.dir/inflate.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/inflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/inflate.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inflate.c -o CMakeFiles/zlib.dir/inflate.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inflate.c -o CMakeFiles/zlib.dir/inflate.c.s
 
 framework/zlib/CMakeFiles/zlib.dir/inftrees.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/inftrees.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inftrees.c
 framework/zlib/CMakeFiles/zlib.dir/inftrees.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object framework/zlib/CMakeFiles/zlib.dir/inftrees.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/inftrees.c.o -MF CMakeFiles/zlib.dir/inftrees.c.o.d -o CMakeFiles/zlib.dir/inftrees.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inftrees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object framework/zlib/CMakeFiles/zlib.dir/inftrees.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/inftrees.c.o -MF CMakeFiles/zlib.dir/inftrees.c.o.d -o CMakeFiles/zlib.dir/inftrees.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inftrees.c
 
 framework/zlib/CMakeFiles/zlib.dir/inftrees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/inftrees.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inftrees.c > CMakeFiles/zlib.dir/inftrees.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inftrees.c > CMakeFiles/zlib.dir/inftrees.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/inftrees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/inftrees.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inftrees.c -o CMakeFiles/zlib.dir/inftrees.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/inftrees.c -o CMakeFiles/zlib.dir/inftrees.c.s
 
 framework/zlib/CMakeFiles/zlib.dir/trees.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/trees.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/trees.c
 framework/zlib/CMakeFiles/zlib.dir/trees.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object framework/zlib/CMakeFiles/zlib.dir/trees.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/trees.c.o -MF CMakeFiles/zlib.dir/trees.c.o.d -o CMakeFiles/zlib.dir/trees.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/trees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object framework/zlib/CMakeFiles/zlib.dir/trees.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/trees.c.o -MF CMakeFiles/zlib.dir/trees.c.o.d -o CMakeFiles/zlib.dir/trees.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/trees.c
 
 framework/zlib/CMakeFiles/zlib.dir/trees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/trees.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/trees.c > CMakeFiles/zlib.dir/trees.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/trees.c > CMakeFiles/zlib.dir/trees.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/trees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/trees.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/trees.c -o CMakeFiles/zlib.dir/trees.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/trees.c -o CMakeFiles/zlib.dir/trees.c.s
 
 framework/zlib/CMakeFiles/zlib.dir/uncompr.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/uncompr.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/uncompr.c
 framework/zlib/CMakeFiles/zlib.dir/uncompr.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object framework/zlib/CMakeFiles/zlib.dir/uncompr.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/uncompr.c.o -MF CMakeFiles/zlib.dir/uncompr.c.o.d -o CMakeFiles/zlib.dir/uncompr.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/uncompr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object framework/zlib/CMakeFiles/zlib.dir/uncompr.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/uncompr.c.o -MF CMakeFiles/zlib.dir/uncompr.c.o.d -o CMakeFiles/zlib.dir/uncompr.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/uncompr.c
 
 framework/zlib/CMakeFiles/zlib.dir/uncompr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/uncompr.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/uncompr.c > CMakeFiles/zlib.dir/uncompr.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/uncompr.c > CMakeFiles/zlib.dir/uncompr.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/uncompr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/uncompr.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/uncompr.c -o CMakeFiles/zlib.dir/uncompr.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/uncompr.c -o CMakeFiles/zlib.dir/uncompr.c.s
 
 framework/zlib/CMakeFiles/zlib.dir/zutil.c.o: framework/zlib/CMakeFiles/zlib.dir/flags.make
 framework/zlib/CMakeFiles/zlib.dir/zutil.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/zutil.c
 framework/zlib/CMakeFiles/zlib.dir/zutil.c.o: framework/zlib/CMakeFiles/zlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object framework/zlib/CMakeFiles/zlib.dir/zutil.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/zutil.c.o -MF CMakeFiles/zlib.dir/zutil.c.o.d -o CMakeFiles/zlib.dir/zutil.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/zutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object framework/zlib/CMakeFiles/zlib.dir/zutil.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/zlib/CMakeFiles/zlib.dir/zutil.c.o -MF CMakeFiles/zlib.dir/zutil.c.o.d -o CMakeFiles/zlib.dir/zutil.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/zutil.c
 
 framework/zlib/CMakeFiles/zlib.dir/zutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/zlib.dir/zutil.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/zutil.c > CMakeFiles/zlib.dir/zutil.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/zutil.c > CMakeFiles/zlib.dir/zutil.c.i
 
 framework/zlib/CMakeFiles/zlib.dir/zutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/zlib.dir/zutil.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/zutil.c -o CMakeFiles/zlib.dir/zutil.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib/zutil.c -o CMakeFiles/zlib.dir/zutil.c.s
 
 # Object files for target zlib
 zlib_OBJECTS = \
@@ -253,19 +253,19 @@ lib/libzlib.a: framework/zlib/CMakeFiles/zlib.dir/uncompr.c.o
 lib/libzlib.a: framework/zlib/CMakeFiles/zlib.dir/zutil.c.o
 lib/libzlib.a: framework/zlib/CMakeFiles/zlib.dir/build.make
 lib/libzlib.a: framework/zlib/CMakeFiles/zlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C static library ../../lib/libzlib.a"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && $(CMAKE_COMMAND) -P CMakeFiles/zlib.dir/cmake_clean_target.cmake
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zlib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C static library ../../lib/libzlib.a"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && $(CMAKE_COMMAND) -P CMakeFiles/zlib.dir/cmake_clean_target.cmake
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zlib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 framework/zlib/CMakeFiles/zlib.dir/build: lib/libzlib.a
 .PHONY : framework/zlib/CMakeFiles/zlib.dir/build
 
 framework/zlib/CMakeFiles/zlib.dir/clean:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib && $(CMAKE_COMMAND) -P CMakeFiles/zlib.dir/cmake_clean.cmake
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib && $(CMAKE_COMMAND) -P CMakeFiles/zlib.dir/cmake_clean.cmake
 .PHONY : framework/zlib/CMakeFiles/zlib.dir/clean
 
 framework/zlib/CMakeFiles/zlib.dir/depend:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/zlib/CMakeFiles/zlib.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/zlib /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib/CMakeFiles/zlib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : framework/zlib/CMakeFiles/zlib.dir/depend
 
