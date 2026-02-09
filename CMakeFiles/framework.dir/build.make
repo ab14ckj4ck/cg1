@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin
+CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker
 
 # Include any dependencies generated for this target.
 include framework/CMakeFiles/framework.dir/depend.make
@@ -72,86 +72,86 @@ include framework/CMakeFiles/framework.dir/flags.make
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o: framework/CMakeFiles/framework.dir/flags.make
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o: framework/CMakeFiles/framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.i
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.s
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o: framework/CMakeFiles/framework.dir/flags.make
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o: framework/CMakeFiles/framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.i
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.s
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o: framework/CMakeFiles/framework.dir/flags.make
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o: framework/CMakeFiles/framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.i
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.s
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o: framework/CMakeFiles/framework.dir/flags.make
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o: framework/CMakeFiles/framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.i
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.s
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o: framework/CMakeFiles/framework.dir/flags.make
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o: framework/CMakeFiles/framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.i
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.s
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o: framework/CMakeFiles/framework.dir/flags.make
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o: /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o: framework/CMakeFiles/framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o -MF CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o.d -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp > CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.i
 
 framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp -o CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.s
 
 # Object files for target framework
 framework_OBJECTS = \
@@ -173,19 +173,19 @@ lib/libframework.a: framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni
 lib/libframework.a: framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o
 lib/libframework.a: framework/CMakeFiles/framework.dir/build.make
 lib/libframework.a: framework/CMakeFiles/framework.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../lib/libframework.a"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && $(CMAKE_COMMAND) -P CMakeFiles/framework.dir/cmake_clean_target.cmake
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/framework.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../lib/libframework.a"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && $(CMAKE_COMMAND) -P CMakeFiles/framework.dir/cmake_clean_target.cmake
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/framework.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 framework/CMakeFiles/framework.dir/build: lib/libframework.a
 .PHONY : framework/CMakeFiles/framework.dir/build
 
 framework/CMakeFiles/framework.dir/clean:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework && $(CMAKE_COMMAND) -P CMakeFiles/framework.dir/cmake_clean.cmake
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework && $(CMAKE_COMMAND) -P CMakeFiles/framework.dir/cmake_clean.cmake
 .PHONY : framework/CMakeFiles/framework.dir/clean
 
 framework/CMakeFiles/framework.dir/depend:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/framework /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/CMakeFiles/framework.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/framework /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/CMakeFiles/framework.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : framework/CMakeFiles/framework.dir/depend
 

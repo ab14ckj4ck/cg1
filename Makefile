@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin
+CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles 0
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework//CMakeFiles/progress.marks
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,70 +103,176 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named framework
+# Convenience name for target.
+framework/CMakeFiles/framework.dir/rule:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/CMakeFiles/framework.dir/rule
+.PHONY : framework/CMakeFiles/framework.dir/rule
 
-# Build rule for target.
-framework: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework
+# Convenience name for target.
+framework: framework/CMakeFiles/framework.dir/rule
 .PHONY : framework
 
 # fast build rule for target.
 framework/fast:
-	$(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/build
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/build
 .PHONY : framework/fast
 
-#=============================================================================
-# Target rules for targets named zlib
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.o: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.o
 
-# Build rule for target.
-zlib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zlib
-.PHONY : zlib
+# target to build an object file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.o
 
-# fast build rule for target.
-zlib/fast:
-	$(MAKE) $(MAKESILENT) -f framework/zlib/CMakeFiles/zlib.dir/build.make framework/zlib/CMakeFiles/zlib.dir/build
-.PHONY : zlib/fast
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.i: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.i
 
-#=============================================================================
-# Target rules for targets named libpng
+# target to preprocess a source file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.i:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.i
 
-# Build rule for target.
-libpng: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libpng
-.PHONY : libpng
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.s: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.s
 
-# fast build rule for target.
-libpng/fast:
-	$(MAKE) $(MAKESILENT) -f framework/libpng/CMakeFiles/libpng.dir/build.make framework/libpng/CMakeFiles/libpng.dir/build
-.PHONY : libpng/fast
+# target to generate assembly for a file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.s:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.cpp.s
 
-#=============================================================================
-# Target rules for targets named task1
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.o: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.o
 
-# Build rule for target.
-task1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1
-.PHONY : task1
+# target to build an object file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.o
 
-# fast build rule for target.
-task1/fast:
-	$(MAKE) $(MAKESILENT) -f task1/CMakeFiles/task1.dir/build.make task1/CMakeFiles/task1.dir/build
-.PHONY : task1/fast
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.i: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.i
+
+# target to preprocess a source file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.i:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.i
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.s: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.s
+
+# target to generate assembly for a file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.s:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.cpp.s
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.o: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.o
+
+# target to build an object file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.o
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.i: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.i
+
+# target to preprocess a source file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.i:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.i
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.s: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.s
+
+# target to generate assembly for a file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.s:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.cpp.s
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.o: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.o
+
+# target to build an object file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.o
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.i: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.i
+
+# target to preprocess a source file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.i:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.i
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.s: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.s
+
+# target to generate assembly for a file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.s:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.cpp.s
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.o: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.o
+
+# target to build an object file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.o
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.i: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.i
+
+# target to preprocess a source file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.i:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.i
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.s: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.s
+
+# target to generate assembly for a file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.s:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.cpp.s
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.o: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.o
+
+# target to build an object file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.o
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.i: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.i
+
+# target to preprocess a source file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.i:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.i
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.i
+
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.s: home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.s
+
+# target to generate assembly for a file
+home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.s:
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.s
+.PHONY : home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.cpp.s
 
 # Help Target
 help:
@@ -177,9 +283,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... framework"
-	@echo "... libpng"
-	@echo "... task1"
-	@echo "... zlib"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.o"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.i"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/config.s"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.o"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.i"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/main.s"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.o"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.i"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/obj.s"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.o"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.i"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/pfm.s"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.o"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.i"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/png.s"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.o"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.i"
+	@echo "... home/thinkpad/Desktop/uni/4.Semester/cg/source/framework/utils/argparse.s"
 .PHONY : help
 
 
@@ -191,6 +312,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

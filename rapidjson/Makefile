@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin
+CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/rapidjson//CMakeFiles/progress.marks
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/rapidjson/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles 0
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/rapidjson//CMakeFiles/progress.marks
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/rapidjson/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/rapidjson/clean
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/rapidjson/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/rapidjson/preinstall
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/rapidjson/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/rapidjson/preinstall
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/rapidjson/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

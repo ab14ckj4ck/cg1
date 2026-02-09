@@ -1,4 +1,4 @@
-# Install script for directory: /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake
+# Install script for directory: /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake/framework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,26 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/cmake_install.cmake")
-  include("/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/task1/cmake_install.cmake")
+  include("/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/zlib/cmake_install.cmake")
+  include("/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng/cmake_install.cmake")
+  include("/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/rapidjson/cmake_install.cmake")
 
 endif()
 
-if(CMAKE_INSTALL_COMPONENT)
-  if(CMAKE_INSTALL_COMPONENT MATCHES "^[a-zA-Z0-9_.+-]+$")
-    set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-  else()
-    string(MD5 CMAKE_INST_COMP_HASH "${CMAKE_INSTALL_COMPONENT}")
-    set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INST_COMP_HASH}.txt")
-    unset(CMAKE_INST_COMP_HASH)
-  endif()
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
-endif()

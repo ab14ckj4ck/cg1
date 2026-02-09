@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin
+CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker
 
 # Include any dependencies generated for this target.
 include framework/libpng/CMakeFiles/libpng.dir/depend.make
@@ -72,212 +72,212 @@ include framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/png.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/png.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/png.c
 framework/libpng/CMakeFiles/libpng.dir/png.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object framework/libpng/CMakeFiles/libpng.dir/png.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/png.c.o -MF CMakeFiles/libpng.dir/png.c.o.d -o CMakeFiles/libpng.dir/png.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/png.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object framework/libpng/CMakeFiles/libpng.dir/png.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/png.c.o -MF CMakeFiles/libpng.dir/png.c.o.d -o CMakeFiles/libpng.dir/png.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/png.c
 
 framework/libpng/CMakeFiles/libpng.dir/png.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/png.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/png.c > CMakeFiles/libpng.dir/png.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/png.c > CMakeFiles/libpng.dir/png.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/png.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/png.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/png.c -o CMakeFiles/libpng.dir/png.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/png.c -o CMakeFiles/libpng.dir/png.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngerror.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngerror.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngerror.c
 framework/libpng/CMakeFiles/libpng.dir/pngerror.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngerror.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngerror.c.o -MF CMakeFiles/libpng.dir/pngerror.c.o.d -o CMakeFiles/libpng.dir/pngerror.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngerror.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngerror.c.o -MF CMakeFiles/libpng.dir/pngerror.c.o.d -o CMakeFiles/libpng.dir/pngerror.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngerror.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngerror.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngerror.c > CMakeFiles/libpng.dir/pngerror.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngerror.c > CMakeFiles/libpng.dir/pngerror.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngerror.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngerror.c -o CMakeFiles/libpng.dir/pngerror.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngerror.c -o CMakeFiles/libpng.dir/pngerror.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngget.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngget.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngget.c
 framework/libpng/CMakeFiles/libpng.dir/pngget.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngget.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngget.c.o -MF CMakeFiles/libpng.dir/pngget.c.o.d -o CMakeFiles/libpng.dir/pngget.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngget.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngget.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngget.c.o -MF CMakeFiles/libpng.dir/pngget.c.o.d -o CMakeFiles/libpng.dir/pngget.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngget.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngget.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngget.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngget.c > CMakeFiles/libpng.dir/pngget.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngget.c > CMakeFiles/libpng.dir/pngget.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngget.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngget.c -o CMakeFiles/libpng.dir/pngget.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngget.c -o CMakeFiles/libpng.dir/pngget.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngmem.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngmem.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngmem.c
 framework/libpng/CMakeFiles/libpng.dir/pngmem.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngmem.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngmem.c.o -MF CMakeFiles/libpng.dir/pngmem.c.o.d -o CMakeFiles/libpng.dir/pngmem.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngmem.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngmem.c.o -MF CMakeFiles/libpng.dir/pngmem.c.o.d -o CMakeFiles/libpng.dir/pngmem.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngmem.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngmem.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngmem.c > CMakeFiles/libpng.dir/pngmem.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngmem.c > CMakeFiles/libpng.dir/pngmem.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngmem.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngmem.c -o CMakeFiles/libpng.dir/pngmem.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngmem.c -o CMakeFiles/libpng.dir/pngmem.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngpread.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngpread.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngpread.c
 framework/libpng/CMakeFiles/libpng.dir/pngpread.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngpread.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngpread.c.o -MF CMakeFiles/libpng.dir/pngpread.c.o.d -o CMakeFiles/libpng.dir/pngpread.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngpread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngpread.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngpread.c.o -MF CMakeFiles/libpng.dir/pngpread.c.o.d -o CMakeFiles/libpng.dir/pngpread.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngpread.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngpread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngpread.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngpread.c > CMakeFiles/libpng.dir/pngpread.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngpread.c > CMakeFiles/libpng.dir/pngpread.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngpread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngpread.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngpread.c -o CMakeFiles/libpng.dir/pngpread.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngpread.c -o CMakeFiles/libpng.dir/pngpread.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngread.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngread.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngread.c
 framework/libpng/CMakeFiles/libpng.dir/pngread.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngread.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngread.c.o -MF CMakeFiles/libpng.dir/pngread.c.o.d -o CMakeFiles/libpng.dir/pngread.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngread.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngread.c.o -MF CMakeFiles/libpng.dir/pngread.c.o.d -o CMakeFiles/libpng.dir/pngread.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngread.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngread.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngread.c > CMakeFiles/libpng.dir/pngread.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngread.c > CMakeFiles/libpng.dir/pngread.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngread.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngread.c -o CMakeFiles/libpng.dir/pngread.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngread.c -o CMakeFiles/libpng.dir/pngread.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngrio.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngrio.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrio.c
 framework/libpng/CMakeFiles/libpng.dir/pngrio.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngrio.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngrio.c.o -MF CMakeFiles/libpng.dir/pngrio.c.o.d -o CMakeFiles/libpng.dir/pngrio.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngrio.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngrio.c.o -MF CMakeFiles/libpng.dir/pngrio.c.o.d -o CMakeFiles/libpng.dir/pngrio.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrio.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngrio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngrio.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrio.c > CMakeFiles/libpng.dir/pngrio.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrio.c > CMakeFiles/libpng.dir/pngrio.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngrio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngrio.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrio.c -o CMakeFiles/libpng.dir/pngrio.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrio.c -o CMakeFiles/libpng.dir/pngrio.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngrtran.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngrtran.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrtran.c
 framework/libpng/CMakeFiles/libpng.dir/pngrtran.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngrtran.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngrtran.c.o -MF CMakeFiles/libpng.dir/pngrtran.c.o.d -o CMakeFiles/libpng.dir/pngrtran.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrtran.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngrtran.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngrtran.c.o -MF CMakeFiles/libpng.dir/pngrtran.c.o.d -o CMakeFiles/libpng.dir/pngrtran.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrtran.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngrtran.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngrtran.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrtran.c > CMakeFiles/libpng.dir/pngrtran.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrtran.c > CMakeFiles/libpng.dir/pngrtran.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngrtran.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngrtran.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrtran.c -o CMakeFiles/libpng.dir/pngrtran.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrtran.c -o CMakeFiles/libpng.dir/pngrtran.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngrutil.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngrutil.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrutil.c
 framework/libpng/CMakeFiles/libpng.dir/pngrutil.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngrutil.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngrutil.c.o -MF CMakeFiles/libpng.dir/pngrutil.c.o.d -o CMakeFiles/libpng.dir/pngrutil.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngrutil.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngrutil.c.o -MF CMakeFiles/libpng.dir/pngrutil.c.o.d -o CMakeFiles/libpng.dir/pngrutil.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrutil.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngrutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngrutil.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrutil.c > CMakeFiles/libpng.dir/pngrutil.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrutil.c > CMakeFiles/libpng.dir/pngrutil.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngrutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngrutil.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrutil.c -o CMakeFiles/libpng.dir/pngrutil.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngrutil.c -o CMakeFiles/libpng.dir/pngrutil.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngset.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngset.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngset.c
 framework/libpng/CMakeFiles/libpng.dir/pngset.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngset.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngset.c.o -MF CMakeFiles/libpng.dir/pngset.c.o.d -o CMakeFiles/libpng.dir/pngset.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngset.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngset.c.o -MF CMakeFiles/libpng.dir/pngset.c.o.d -o CMakeFiles/libpng.dir/pngset.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngset.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngset.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngset.c > CMakeFiles/libpng.dir/pngset.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngset.c > CMakeFiles/libpng.dir/pngset.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngset.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngset.c -o CMakeFiles/libpng.dir/pngset.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngset.c -o CMakeFiles/libpng.dir/pngset.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngtrans.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngtrans.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngtrans.c
 framework/libpng/CMakeFiles/libpng.dir/pngtrans.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngtrans.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngtrans.c.o -MF CMakeFiles/libpng.dir/pngtrans.c.o.d -o CMakeFiles/libpng.dir/pngtrans.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngtrans.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngtrans.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngtrans.c.o -MF CMakeFiles/libpng.dir/pngtrans.c.o.d -o CMakeFiles/libpng.dir/pngtrans.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngtrans.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngtrans.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngtrans.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngtrans.c > CMakeFiles/libpng.dir/pngtrans.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngtrans.c > CMakeFiles/libpng.dir/pngtrans.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngtrans.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngtrans.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngtrans.c -o CMakeFiles/libpng.dir/pngtrans.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngtrans.c -o CMakeFiles/libpng.dir/pngtrans.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngwio.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngwio.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwio.c
 framework/libpng/CMakeFiles/libpng.dir/pngwio.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngwio.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngwio.c.o -MF CMakeFiles/libpng.dir/pngwio.c.o.d -o CMakeFiles/libpng.dir/pngwio.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngwio.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngwio.c.o -MF CMakeFiles/libpng.dir/pngwio.c.o.d -o CMakeFiles/libpng.dir/pngwio.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwio.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngwio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngwio.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwio.c > CMakeFiles/libpng.dir/pngwio.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwio.c > CMakeFiles/libpng.dir/pngwio.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngwio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngwio.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwio.c -o CMakeFiles/libpng.dir/pngwio.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwio.c -o CMakeFiles/libpng.dir/pngwio.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngwrite.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngwrite.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwrite.c
 framework/libpng/CMakeFiles/libpng.dir/pngwrite.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngwrite.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngwrite.c.o -MF CMakeFiles/libpng.dir/pngwrite.c.o.d -o CMakeFiles/libpng.dir/pngwrite.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngwrite.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngwrite.c.o -MF CMakeFiles/libpng.dir/pngwrite.c.o.d -o CMakeFiles/libpng.dir/pngwrite.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwrite.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngwrite.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwrite.c > CMakeFiles/libpng.dir/pngwrite.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwrite.c > CMakeFiles/libpng.dir/pngwrite.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngwrite.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwrite.c -o CMakeFiles/libpng.dir/pngwrite.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwrite.c -o CMakeFiles/libpng.dir/pngwrite.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngwtran.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngwtran.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwtran.c
 framework/libpng/CMakeFiles/libpng.dir/pngwtran.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngwtran.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngwtran.c.o -MF CMakeFiles/libpng.dir/pngwtran.c.o.d -o CMakeFiles/libpng.dir/pngwtran.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwtran.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngwtran.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngwtran.c.o -MF CMakeFiles/libpng.dir/pngwtran.c.o.d -o CMakeFiles/libpng.dir/pngwtran.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwtran.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngwtran.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngwtran.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwtran.c > CMakeFiles/libpng.dir/pngwtran.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwtran.c > CMakeFiles/libpng.dir/pngwtran.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngwtran.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngwtran.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwtran.c -o CMakeFiles/libpng.dir/pngwtran.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwtran.c -o CMakeFiles/libpng.dir/pngwtran.c.s
 
 framework/libpng/CMakeFiles/libpng.dir/pngwutil.c.o: framework/libpng/CMakeFiles/libpng.dir/flags.make
 framework/libpng/CMakeFiles/libpng.dir/pngwutil.c.o: /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwutil.c
 framework/libpng/CMakeFiles/libpng.dir/pngwutil.c.o: framework/libpng/CMakeFiles/libpng.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngwutil.c.o"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngwutil.c.o -MF CMakeFiles/libpng.dir/pngwutil.c.o.d -o CMakeFiles/libpng.dir/pngwutil.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object framework/libpng/CMakeFiles/libpng.dir/pngwutil.c.o"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT framework/libpng/CMakeFiles/libpng.dir/pngwutil.c.o -MF CMakeFiles/libpng.dir/pngwutil.c.o.d -o CMakeFiles/libpng.dir/pngwutil.c.o -c /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwutil.c
 
 framework/libpng/CMakeFiles/libpng.dir/pngwutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libpng.dir/pngwutil.c.i"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwutil.c > CMakeFiles/libpng.dir/pngwutil.c.i
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwutil.c > CMakeFiles/libpng.dir/pngwutil.c.i
 
 framework/libpng/CMakeFiles/libpng.dir/pngwutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libpng.dir/pngwutil.c.s"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwutil.c -o CMakeFiles/libpng.dir/pngwutil.c.s
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng/pngwutil.c -o CMakeFiles/libpng.dir/pngwutil.c.s
 
 # Object files for target libpng
 libpng_OBJECTS = \
@@ -317,19 +317,19 @@ lib/liblibpng.a: framework/libpng/CMakeFiles/libpng.dir/pngwtran.c.o
 lib/liblibpng.a: framework/libpng/CMakeFiles/libpng.dir/pngwutil.c.o
 lib/liblibpng.a: framework/libpng/CMakeFiles/libpng.dir/build.make
 lib/liblibpng.a: framework/libpng/CMakeFiles/libpng.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library ../../lib/liblibpng.a"
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && $(CMAKE_COMMAND) -P CMakeFiles/libpng.dir/cmake_clean_target.cmake
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libpng.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library ../../lib/liblibpng.a"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && $(CMAKE_COMMAND) -P CMakeFiles/libpng.dir/cmake_clean_target.cmake
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libpng.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 framework/libpng/CMakeFiles/libpng.dir/build: lib/liblibpng.a
 .PHONY : framework/libpng/CMakeFiles/libpng.dir/build
 
 framework/libpng/CMakeFiles/libpng.dir/clean:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng && $(CMAKE_COMMAND) -P CMakeFiles/libpng.dir/cmake_clean.cmake
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng && $(CMAKE_COMMAND) -P CMakeFiles/libpng.dir/cmake_clean.cmake
 .PHONY : framework/libpng/CMakeFiles/libpng.dir/clean
 
 framework/libpng/CMakeFiles/libpng.dir/depend:
-	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/framework/libpng/CMakeFiles/libpng.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake /home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/framework/libpng/CMakeFiles/libpng.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : framework/libpng/CMakeFiles/libpng.dir/depend
 

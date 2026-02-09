@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/thinkpad/Desktop/uni/4.Semester/cg/build/dependencies/libpng")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
