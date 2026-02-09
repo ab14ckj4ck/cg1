@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin
+CMAKE_BINARY_DIR = /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -168,14 +168,14 @@ framework/CMakeFiles/framework.dir/all: framework/zlib/CMakeFiles/zlib.dir/all
 framework/CMakeFiles/framework.dir/all: framework/libpng/CMakeFiles/libpng.dir/all
 	$(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/depend
 	$(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target framework"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target framework"
 .PHONY : framework/CMakeFiles/framework.dir/all
 
 # Build rule for subdir invocation for target.
 framework/CMakeFiles/framework.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/CMakeFiles/framework.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles 0
 .PHONY : framework/CMakeFiles/framework.dir/rule
 
 # Convenience name for target.
@@ -194,14 +194,14 @@ framework/CMakeFiles/framework.dir/clean:
 framework/zlib/CMakeFiles/zlib.dir/all:
 	$(MAKE) $(MAKESILENT) -f framework/zlib/CMakeFiles/zlib.dir/build.make framework/zlib/CMakeFiles/zlib.dir/depend
 	$(MAKE) $(MAKESILENT) -f framework/zlib/CMakeFiles/zlib.dir/build.make framework/zlib/CMakeFiles/zlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44 "Built target zlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44 "Built target zlib"
 .PHONY : framework/zlib/CMakeFiles/zlib.dir/all
 
 # Build rule for subdir invocation for target.
 framework/zlib/CMakeFiles/zlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/zlib/CMakeFiles/zlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles 0
 .PHONY : framework/zlib/CMakeFiles/zlib.dir/rule
 
 # Convenience name for target.
@@ -220,14 +220,14 @@ framework/zlib/CMakeFiles/zlib.dir/clean:
 framework/libpng/CMakeFiles/libpng.dir/all: framework/zlib/CMakeFiles/zlib.dir/all
 	$(MAKE) $(MAKESILENT) -f framework/libpng/CMakeFiles/libpng.dir/build.make framework/libpng/CMakeFiles/libpng.dir/depend
 	$(MAKE) $(MAKESILENT) -f framework/libpng/CMakeFiles/libpng.dir/build.make framework/libpng/CMakeFiles/libpng.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target libpng"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target libpng"
 .PHONY : framework/libpng/CMakeFiles/libpng.dir/all
 
 # Build rule for subdir invocation for target.
 framework/libpng/CMakeFiles/libpng.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework/libpng/CMakeFiles/libpng.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles 0
 .PHONY : framework/libpng/CMakeFiles/libpng.dir/rule
 
 # Convenience name for target.
@@ -243,19 +243,19 @@ framework/libpng/CMakeFiles/libpng.dir/clean:
 # Target rules for target task1/CMakeFiles/task1.dir
 
 # All Build rule for target.
+task1/CMakeFiles/task1.dir/all: framework/CMakeFiles/framework.dir/all
 task1/CMakeFiles/task1.dir/all: framework/zlib/CMakeFiles/zlib.dir/all
 task1/CMakeFiles/task1.dir/all: framework/libpng/CMakeFiles/libpng.dir/all
-task1/CMakeFiles/task1.dir/all: framework/CMakeFiles/framework.dir/all
 	$(MAKE) $(MAKESILENT) -f task1/CMakeFiles/task1.dir/build.make task1/CMakeFiles/task1.dir/depend
 	$(MAKE) $(MAKESILENT) -f task1/CMakeFiles/task1.dir/build.make task1/CMakeFiles/task1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32 "Built target task1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32 "Built target task1"
 .PHONY : task1/CMakeFiles/task1.dir/all
 
 # Build rule for subdir invocation for target.
 task1/CMakeFiles/task1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1/CMakeFiles/task1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/bin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thinkpad/Desktop/uni/4.Semester/cg/build/build_docker/CMakeFiles 0
 .PHONY : task1/CMakeFiles/task1.dir/rule
 
 # Convenience name for target.
